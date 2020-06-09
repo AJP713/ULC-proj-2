@@ -27,6 +27,8 @@ body {
   object-fit: cover;
   height:60vh;
   object-position: 100% 0px;
+
+  
 }
 
 .row{
@@ -34,16 +36,17 @@ body {
   margin-top:10px;
   padding:0;
   text-align:center;
+  font-size: 1.8vw;
 }
 .row div{
-  border: solid 2px black;
+  border: solid 2px #4a2e18;
   width:100%;
   height: 20vh;
   padding:15px;
   
 }
 
-.fas{
+.fas, .far{
   font-size:8vh;
   text-align:center;
   color: #4a2e18;
@@ -51,29 +54,51 @@ body {
 }
 #explanation{
   text-align:center;
-  margin-top:10px;
+  margin-top:20px;
   font-family: 'Patua One', cursive;
-  font-size: 6vh;
+  font-size: 8vh;
    color: #4a2e18;
-  margin-bottom:-40px;
+  margin-bottom:-30px;
+  padding-left:6vw;
+   padding-right:6vw;
 }
 .category{
   margin: 10vh 20%;
   padding:3%;
   border:solid 4px #4a2e18;
-
-  
+  font-size: 1.8vw;
 }
 .category:nth-child(odd){
   background:#4a2e18;
   color:linen;
+  
 }
+
+.category:nth-child(odd) hr{
+  border:.3px solid linen;
+}
+
+hr{
+  border:.5px solid #4a2e18;
+}
+
 
 .textc:hover {
   color:white;
   font-size:7px;
+  font-family: 'Bangers', cursive;
 }
 
+.textc:hover #txt1{
+  font-family: 'Dancing Script', cursive;
+  font-size:16px;
+}
+
+.colorc:hover{
+  background:cyan;
+  border:8px dashed deeppink;
+  color: yellow;
+}
 #gbu2{
   display:inline;
   margin-top:15px;
@@ -82,16 +107,38 @@ body {
   
 }
 
-#gbu2:hover{
-  width:32vh;
-  height:18vh;
-  float:left;
-}
+
 
 .imagec{
  height:32vw;
 }
+.imagec:hover #gbu2{
+   width:52vh;
+  height:20vh;
+  float:left;
+}
 
+.layoutc:hover{
+  
+  line-spaceing:0;
+  padding:0px;
+  width:400px;
+  height:300px;
+  border: 0px solid #4a2e18;
+  margin-top:-80px;
+}
+.layoutc:hover hr{
+  border:0 solid linen;
+}
+
+.alignc:hover{
+  text-align:center;
+  padding:0;
+  width:70%;
+}
+.alignc:hover ul{
+  text-align:right;
+}
 footer{
   background:#4a2e18;
   color:linen;
@@ -100,4 +147,33 @@ footer{
   padding-bottom:1vh;
   line-height: 50%;
   
+}
+
+h2{
+  font-size: 3.5vw;
+  
+}  
+
+.respc:hover{
+  width: 760px;
+  height: 360px;
+  font-size: 23px;
+  
+}
+.respc:hover h2{
+ font-size: 45px;
+  
+}
+
+.carousel{
+  width:60%;
+  margin: 0 auto;
+}
+h3{
+  text-align:center;
+  
+  font-family: 'Patua One', cursive;
+  font-size: 8vh;
+   color: #4a2e18;
+  margin-bottom:20px;
 }
